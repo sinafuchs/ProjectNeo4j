@@ -13,5 +13,4 @@ public interface TeacherService {
     Teacher updateById(int id, Teacher teacher);
 
     void deleteById(int id);
-
 }

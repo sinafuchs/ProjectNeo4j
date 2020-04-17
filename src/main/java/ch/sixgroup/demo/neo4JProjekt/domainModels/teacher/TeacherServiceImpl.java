@@ -45,4 +45,5 @@ public class TeacherServiceImpl implements TeacherService {
     public void deleteById(int id) {
         teacherRepository.deleteById(id);
     }
+
 }
