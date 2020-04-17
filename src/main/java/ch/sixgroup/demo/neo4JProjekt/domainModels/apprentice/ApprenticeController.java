@@ -1,7 +1,6 @@
 package ch.sixgroup.demo.neo4JProjekt.domainModels.apprentice;
 
-import ch.sixgroup.demo.neo4JProjekt.domainModels.teacher.Teacher;
-import ch.sixgroup.demo.neo4JProjekt.domainModels.teacher.TeacherService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
+
 @RequestMapping("/apprentices")
 public class ApprenticeController {
 
